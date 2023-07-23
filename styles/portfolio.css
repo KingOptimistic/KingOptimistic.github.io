@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 16pt;
+    margin: 0;
+    background-image: url("dotts.jpg");
+    background-size: auto;
+    background-position: center;
+}
+
+header {
+    font-family: monospace;
+    background-color: #2D4D42;
+    font-size: 90%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width: auto;
+    text-align: center;
+    font-weight: 100;
+    color: whitesmoke;
+
+}
+
+/*navigation*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #718878;
+    z-index: 9999;
+    border-bottom: 2px solid #91af9a;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    font-size: 90%;
+    margin: 8px;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:link {
+    color: #fafafc;
+}
+
+nav a:hover {
+
+    filter: brightness(75%);
+}
+
+main {
+    padding: 50px;
+    background-color: #fafafc;
+    color: #575757;
+    text-align: left;
+    margin: auto;
+    max-width: 700px;
+    line-height: 1.75;
+    background-image: url("dotts.jpg");
+}
+
+iframe {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+footer {
+    background-color: #c4d0cc;
+    border-top: 2px solid rgb(162, 175, 166);
+    padding: 5px;
+    text-align: center;
+  }
